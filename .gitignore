@@ -1,97 +1,69 @@
-# ===============================
-# Node / Next.js (Frontend)
-# ===============================
+# ==========================
+# Python / Backend
+# ==========================
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
 
-# Next.js build output
-/.next
-/out
-/build
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
-# dotenv environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Logs and outputs
+*.log
+*.out
+*.err
+
+# Cache
+.cache/
+.pytest_cache/
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
+
+# YOLO / ML model weights (too large for GitHub)
+*.pt
+*.pth
+
+# ==========================
+# Node / Frontend
+# ==========================
+
+# Node dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# OS
-.DS_Store
-Thumbs.db
+# Environment files
+*.local
+.env
 
-# IDEs
-.vscode/
-.idea/
+# ==========================
+# Misc / Deployment
+# ==========================
 
-# ===============================
-# Python / FastAPI (Backend)
-# ===============================
-
-# Byte-compiled / optimized / DLL files
+# Render / deployment-specific
 __pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-*.egg-info/
-dist/
-build/
-
-# pipenv
-Pipfile.lock
-
-# poetry
-poetry.lock
-
-# mypy
-.mypy_cache/
-.dmypy.json
-
-# pyre type checker
-.pyre/
-
-# pytest
-.pytest_cache/
-
-# coverage reports
-htmlcov/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-
-# IDEs
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# ===============================
-# Misc / shared
-# ===============================
-*.log
-*.sqlite3
